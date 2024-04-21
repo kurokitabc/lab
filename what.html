@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Page 1</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<nav>
+  <ul>
+    <li><a href="index.html">メインページ</a></li>
+    <li><a class="active" href="what.html">成果</a></li>
+    <li><a href="page2.html">技術誌について</a></li>
+    <li><a href="page3.html">未定</a></li>
+  </ul>
+</nav>
+<!-- ページ1のコンテンツ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Website</title>
+  <style>
+    /* スタイルはここに記述 */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #fff; /* テキストの色を白色に設定 */
+    }
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 10px 20px;
+      text-align: center;
+    }
+    main {
+      padding: 20px;
+    }
+    .achievement {
+      margin-bottom: 20px;
+      text-align: center; /* テキストを中央に配置 */
+    }
+    .description {
+      border: 1px solid #ccc;
+      padding: 20px;
+      margin-top: 20px;
+      text-align: center; /* テキストを中央に配置 */
+    }
+    /* 外部サイトへのリンクのテキストカラーを白色に設定 */
+    .achievement a {
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>What's KBCLab?</h1>
+  </header>
+  <main>
+    <section class="achievement">
+      <h2>これまでの成果</h2>
+      <p><a href="https://example.com/page1" target="_blank">GitHub(作成したツール集)</a></p>
+      <p><a href="https://example.com/page2" target="_blank">登壇について</a></p>
+    </section>
+    <section class="description">
+      <h2>KBCLabの説明</h2>
+      <p>KBCLabでは映像制作の技術育成、部活動への貢献活動を行っています。</p>
+	  <h2>ツール作成と技術育成と機材への理解を。</h2>
+	  <p>映像制作や作業を便利にするツールの作成をしています。詳しくはGitHubリポジトリを御覧下さい。<br />
+	  技術育成に関しては技術誌を御覧下さい。映像制作の育成プログラムです。</p>
+	  <h2>↓KBCLabについての説明スライドです↓</h2>
+	  <p>(ブラウザによっては表示されない可能性があります)</p>
+	  </p>
+    </section>
+	<header>
+</body>
+</html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>PDF資料の表示</title>
+  </head>
+  <body>
+	<embed src="whatlab.pdf" type="application/pdf" width="100%" height="600px">
+  </body>
+  </html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>所属メンバー一覧</title>
+	<style>
+	  /* スタイルはここに記述 */
+	  body {
+		font-family: Arial, sans-serif;
+		margin: 0;
+		padding: 0;
+	  }
+	  header {
+		background-color: #333;
+		color: #fff;
+		padding: 10px 20px;
+		text-align: center;
+	  }
+	  main {
+		padding: 20px;
+		text-align: center; /* 学年ごとのメンバー一覧を中央に配置 */
+	  }
+	  .grade {
+		margin-bottom: 40px; /* 学年ごとに余白を追加 */
+		border: 1px solid #999; /* グレーの枠を追加 */
+		padding: 10px; /* 枠の内側の余白を追加 */
+		background-color: #5f9ea0; /* 背景色を追加 */
+	  }
+	  .grade h2 {
+		border-bottom: 2px solid #a9a9a9; /* 学年タイトルに下線を追加 */
+		padding-bottom: 5px;
+	  }
+	  .member {
+		margin-bottom: 20px;
+		display: inline-block; /* メンバーを1行に4人表示 */
+		text-align: left; /* メンバー情報は左揃えに */
+		width: 22%; /* メンバーの幅を調整 */
+		margin-right: 4%; /* メンバーの間隔を設定 */
+		vertical-align: top; /* メンバーの上端に揃える */
+	  }
+	  .member:nth-child(4n) {
+		margin-right: 0; /* 4人目のメンバーの右側のマージンを削除 */
+	  }
+	  .member h3 {
+		margin-bottom: 5px;
+	  }
+	  .member p {
+		margin: 0;
+	  }
+	</style>
+  </head>
+  <body>
+	<header>
+	  <h1>Lab Member</h1>
+	</header>
+	<main>
+	  <section class="grade">
+		<h2>3年生</h2>
+		<div class="member">
+		  <h3>Kota</h3>
+		  <p>Role: Developer, Director</p>
+		  <p>Team: 映像</p>
+		</div>
+		<div class="member">
+		  <h3>Hitomi</h3>
+		  <p>Role: Manager, Reader</p>
+		  <p>Team: 朗読</p>
+		</div>
+		<div class="member">
+		  <h3>Kokoro</h3>
+		  <p>Role: Actor, Reader</p>
+		  <p>Team: 朗読</p>
+		</div>
+	  </section>
+	  <section class="grade">
+		<h2>2年生</h2>
+		<div class="member">
+			<h3>Keita</h3>
+			<p>Role: SubManager, Director</p>
+			<p>Team: 映像</p>
+		</div>
+		<div class="member">
+			<h3>Haruki</h3>
+			<p>Role: Creator, Actor</p>
+			<p>Team: 映像</p>
+	  </section>
+	  <section class="grade">
+		<h2>1年生</h2>
+		<div class="member">
+			<h3>Sho</h3>
+			<p>Role: Programmer, Creator</p>
+			<p>Team: 朗読</p>
+		</div>
+		<div class="member">
+			<h3>Maho</h3>
+			<p>Role: Reader</p>
+			<p>Team: 朗読</p>
+		</div>
+		<div class="member">
+			<h3>Mina</h3>
+			<p>Role: Reader</p>
+			<p>Team: 朗読</p>
+		</div>
+	  </section>
+	</main>
+  </body>
+  </html>
